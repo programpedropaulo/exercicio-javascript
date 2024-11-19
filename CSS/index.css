@@ -1,0 +1,80 @@
+/* Estilo para o corpo da página */
+body { 
+    background-color: #ccc; /* Define a cor de fundo do corpo da página */
+    margin: 0; /* Remove as margens padrão do navegador */
+    padding: 0; /* Remove o espaçamento interno padrão */
+    height: 100vh; /* Define a altura como o tamanho total da janela */
+    overflow-x: hidden; /* Impede que o conteúdo ultrapasse horizontalmente */
+    overflow-y: auto; /* Exibe a barra de rolagem apenas quando necessário */
+}
+
+/* Estilo para o cabeçalho e navegação */
+.cabecario-1 nav ul {
+    list-style: none; /* Remove os marcadores padrão da lista */
+    padding: 0; /* Remove o espaçamento interno */
+    display: flex; /* Define que os itens da lista serão exibidos em linha */
+    flex-wrap: wrap; /* Permite que os itens quebrem linha se necessário */
+    justify-content: flex-end; /* Alinha os itens da lista à direita */
+    margin-top: 20px; /* Adiciona espaçamento acima do cabeçalho */
+    margin-right: 20px; /* Adiciona espaçamento à direita */
+}
+
+/* Estilo para os botões do cabeçalho */
+.botoes-header {
+    text-decoration: none; /* Remove o sublinhado do link */
+    padding: 10px 20px; /* Adiciona espaçamento interno no botão */
+    color: #000; /* Define a cor do texto como preto */
+    font-size: 16px; /* Define o tamanho da fonte */
+    font-weight: bold; /* Define a fonte em negrito */
+    border-radius: 5px; /* Arredonda os cantos */
+    transition: background-color 0.3s ease; /* Adiciona uma transição suave para a mudança de cor de fundo */
+}
+
+/* Estilo de hover para os botões do cabeçalho */
+.botoes-header:hover {
+    background-color: #e0e0e0; /* Muda a cor de fundo ao passar o mouse */
+    color: #000; /* Garante contraste */
+    cursor: pointer; /* Mostra o ponteiro de link */
+}
+
+/* Estilo para o conteúdo principal */
+.main-1 {
+    text-align: left; /* Alinha o conteúdo à esquerda */
+    padding: 0 20px; /* Adiciona espaçamento interno */
+    margin: 0 auto; /* Centraliza o elemento horizontalmente */
+    min-height: 100vh; /* Define uma altura mínima para o conteúdo ocupar toda a janela */
+    max-width: 400px; /* Define a largura máxima */
+    background-color: #999; /* Define a cor de fundo*/
+    box-sizing: border-box; /* Inclui padding e borda no cálculo das dimensões */
+    border-radius: 5px; /* Arredonda os cantos */
+}
+
+/* Estilo para `section` */
+section {
+    padding: 20px; /* Adiciona espaçamento interno */
+    margin: 0 auto; /* Centraliza o elemento horizontalmente */
+    background-color: #999; /* Define uma cor de fundo cinza */
+}
+
+/* Estilo para títulos h1 */
+h1 {
+    font-size: 36px; /* Define o tamanho da fonte */
+    color: #333; /* Define a cor do texto */
+    text-align: left; /* Alinha o texto à esquerda */
+    margin-bottom: 20px; /* Adiciona espaçamento abaixo do título */
+}
+
+/* Estilo para títulos h2 */
+h2 {
+    font-size: 28px; /* Define o tamanho da fonte */
+    color: #333; /* Define a cor do texto */
+    margin-top: 30px; /* Adiciona espaçamento acima do título */
+    margin-bottom: 10px; /* Adiciona espaçamento abaixo do título */
+}
+
+/* Estilo para parágrafos */
+p {
+    font-size: 18px; /* Define o tamanho da fonte */
+    line-height: 1.6; /* Define o espaçamento entre as linhas */
+    color: #666; /* Define a cor do texto */
+}

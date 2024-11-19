@@ -1,0 +1,33 @@
+/* Estilos para o body (corpo principal do documento) */
+body {
+    background-color: #ccc; /* Define a cor de fundo do corpo como cinza claro (#ccc). */
+    margin: 0;             /* Remove as margens padrão ao redor do corpo. */
+    padding: 0;            /* Remove o preenchimento padrão dentro do corpo. */
+    overflow: scroll;      /* Garante que a barra de rolagem esteja sempre visível, mesmo se não for necessária. */
+}
+
+/* Estilos para o elemento ul dentro de .cabecario-1 nav */
+.cabecario-1 nav ul {
+    list-style: none;        /* Remove os marcadores padrão da lista (bolinhas ou números). */
+    padding: 0;              /* Remove o preenchimento padrão do ul. */
+    display: flex;           /* Define o layout da lista como flexbox para facilitar o alinhamento dos itens. */
+    justify-content: flex-end; /* Alinha os itens da lista ao lado direito do contêiner. */
+    margin-top: 20px;        /* Adiciona um espaço de 20px acima do ul. */
+    margin-right: 20px;      /* Adiciona um espaço de 20px à direita do ul. */
+}
+
+/* Estilos para os links dentro do cabeçalho, identificados pela classe .botoes-header */
+.botoes-header {
+    text-decoration: none;       /* Remove o sublinhado dos links. */
+    padding: 10px 20px;          /* Adiciona preenchimento interno (10px em cima/baixo e 20px nas laterais). */
+    color: #000;                 /* Define a cor do texto como preto. */
+    font-size: 16px;             /* Define o tamanho da fonte como 16px. */
+    font-weight: bold;           /* Deixa o texto em negrito. */
+    border-radius: 5px;          /* Arredonda os cantos do botão com 5px de raio. */
+    transition: backgroud-color 0.3s ease; /* Adiciona uma transição suave ao fundo (mas há um erro: 'background-color' está escrito errado). */
+}
+
+/* Estilos aplicados aos links (.botoes-header) ao passar o mouse (hover) */
+.botoes-header:hover {
+    background-color: #f0f0f0; /* Altera a cor de fundo para cinza claro (#f0f0f0) ao passar o mouse. */
+}
