@@ -3,8 +3,8 @@ body {
     background-color: #ccc; /* Define a cor de fundo do corpo como cinza claro (#ccc). */
     margin: 0;             /* Remove as margens padrão ao redor do corpo. */
     padding: 0;            /* Remove o preenchimento padrão dentro do corpo. */
-    overflow: scroll;      /* Garante que a barra de rolagem esteja sempre visível, mesmo se não for necessária. */
-}
+    overflow-x: hidden;
+    overflow-y: auto;
 
 /* Estilos para o elemento ul dentro de .cabecario-1 nav */
 .cabecario-1 nav ul {

@@ -1,4 +1,3 @@
-
 // Seleciona o formulário pelo ID
 const form = document.getElementById("formFeedback");
 

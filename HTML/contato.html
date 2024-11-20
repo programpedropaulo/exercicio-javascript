@@ -14,9 +14,21 @@
                 <li><a href="../index.html" class="botoes-header">Sobre Mim</a></li>
                 <li><a href="../HTML/projetos.html" class="botoes-header">Projetos</a></li>
                 <li><a href="../HTML/dicas.html" class="botoes-header">Dicas</a></li>
-                <li><a href="../HTML/contato.html " class="botoes-header">Contato</a></li>
+                <li><a href="../HTML/contato.html" class="botoes-header">Contato</a></li>
             </ul>
         </nav>
     </header>
+    <form action="enviar_resposta" method="post" class="formulario">
+        <fieldset class="quadro-questionario">
+            <legend>Questionário de Feedback</legend>
+            <label for="pergunta01">Qual é o seu nome?</label>
+            <input type="text" name="pergunta01" id="nome" required placeholder="Digite seu nome">
+            <label for="pergunta02">Qual sua idade?</label>
+            <input type="number" name="pergunta02" id="idade" required placeholder="Digite sua idade">
+            <label for="pergunta03">Qual é a sua opinião sobre este site?</label>
+            <textarea id="pergunta3" name="opiniaosite" rows="4" required placeholder="Digite sua opinião"></textarea>
+            <button type="submit">Enviar</button>
+        </fieldset>
+    </form>
 </body>
 </html>
